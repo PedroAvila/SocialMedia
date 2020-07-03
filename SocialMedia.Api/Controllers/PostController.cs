@@ -77,6 +77,7 @@ namespace SocialMedia.Api.Controllers
             return Ok(response);
         }
 
+        //Create
         [HttpPost]
         public async Task<IActionResult> Post(PostDto postDto)
         {
@@ -87,6 +88,7 @@ namespace SocialMedia.Api.Controllers
             return Ok(response);
         }
 
+        //Update
         [HttpPut]
         public async Task<IActionResult> Put(int id, PostDto postDto)
         {
